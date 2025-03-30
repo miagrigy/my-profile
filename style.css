@@ -1,0 +1,153 @@
+/* Base */
+body {
+  background-color: #fef6f0;
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  color: #333;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+/* Conteneur principal */
+.container {
+  max-width: 700px;
+  margin: 60px auto;
+  padding: 20px;
+}
+
+/* Cartes blanches */
+.card-white {
+  background-color: white;
+  border-radius: 6px;
+  padding: 30px;
+  margin: 20px 0;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.05);
+  text-align: left;
+}
+
+.card-white:hover {
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.08);
+  transform: translateY(-2px);
+  transition: all 0.3s ease;
+}
+
+/* Titres */
+h1 {
+  font-size: 32px;
+  color: #d25a5a;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 20px;
+  color: #7a5c58;
+  font-weight: 400;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+h3 {
+  font-size: 18px;
+  color: #5a3e36;
+  margin-bottom: 10px;
+}
+
+/* Paragraphes */
+p {
+  margin: 20px 0;
+}
+
+/* Image */
+.avatar {
+  width: 150px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+/* Image ronde */
+.img-circle {
+  border-radius: 50%;
+}
+
+/* Centrage */
+.text-center {
+  text-align: center;
+}
+
+/* Bouton */
+.btn {
+  display: inline-block;
+  background-color: #d25a5a;
+  color: white;
+  padding: 12px 20px;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+  margin-top: 10px;
+}
+
+.btn:hover {
+  background-color: #b04444;
+}
+
+/* Listes */
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin: 10px 0;
+}
+
+/* Liste horizontale pour les réseaux */
+.list-inline {
+  list-style: none;
+  padding-left: 0;
+  margin-top: 20px;
+}
+
+.list-inline > li {
+  display: inline;
+  padding: 0 20px;
+}
+@media (max-width: 960px) {
+  .container {
+    max-width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  .container {
+    max-width: 500px;
+    padding: 20px;
+  }
+
+  h1 {
+    font-size: 28px;
+  }
+
+  h2 {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 540px) {
+  .container {
+    max-width: 90%;
+    padding: 10px;
+  }
+
+  .avatar {
+    width: 100px;
+  }
+
+  .list-inline > li {
+    display: block;
+    margin: 10px 0;
+  }
+}
+
